@@ -1,4 +1,4 @@
-import pandas as pd
+#import pandas as pd
 
 # 코로나 엑셀 데이터 파일(.xlsx)이 저장된 경로입니다.
 data_path = './data/corona_data.xlsx'
@@ -7,5 +7,5 @@ data_path = './data/corona_data.xlsx'
 corona_data = pd.read_excel()
 
 # corona_data셋에서 '확진자' 데이터만 추출하여 출력해보세요
-confirmed = corona_data[]
-print(confirmed)
+#confirmed = corona_data[]
+#print(confirmed)
